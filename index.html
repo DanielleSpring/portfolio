@@ -1,176 +1,537 @@
 <!DOCTYPE html>
-<!-- saved from url=(0112)file:///C:/Users/Danielle%20Spring/Documents/GitHub/Challenges/portfolio/Danielle%20Spring%20_%20Portfolio2.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html lang="en">
 
-    <!-- Google Font -->
-    <link href="./Danielle Spring _ Portfolio_files/css" rel="stylesheet">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Danielle Spring | Portfolio</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./Danielle Spring _ Portfolio_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="./Danielle Spring _ Portfolio_files/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Iconify.Design -->
+    <link rel="stylesheet" href="https://code.iconify.design/2/2.1.2/iconify.min.js"/>
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="./Danielle Spring _ Portfolio_files/app.css" rel="stylesheet">
-    <title>Danielle Spring | Portfolio</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-
-    <!-- No defined header section -->
-
-    <!-- Main content goes here split into sections/fragments -->
-    <main>
-
-        <!-- Utilizes flexbox styling not taught in class -->
-        <section class="fragment fragment-one">
-            <div class="headers">
-                <h1>Danielle Spring</h1>
-                <h3> Supply Chain Data Analyst | Business Forecasting| Process Improvement evangelist</h3>
+<body id="page-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top text-capitalize" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right text-capitalize text-white rounded" type="button"
+                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certification">Certification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <div class="learn">
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="assets/img/jane.jpg" alt="" />
+            <h1 class="mb-0">Danielle Spring</h1>
+            <hr />
+            <h2 class="mb-0">
+                Data Explorer - Visualization Enthusiast - Process Improvement Junkie
+            </h2>
 
-                <!-- You could hyperlink this down with a smooth scroll -->
-                <p> learn more </p>
-                <i class="fas fa-chevron-down"></i>
+            <!-- Replace this text with your brand statement or other short text about you. -->
+            <p class="brand-statement">
+                An innovative, results-driven Business Analyst with extensive Supply Chain,
+                Demand Planning, Inventory and Project Management experience.
+                Adept at solving business problems in multi-functional organizations
+                through process improvement, data analytics, root cause analysis,
+                trending and automation.
+                
+            </p>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-capitalize text-secondary mb-0">
+                Portfolio
+            </h2>
+            <hr class="star-dark mb-5" />
+
+            <!-- Each project should include a header and a picture or animated gif.-->
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #1</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project1.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #2</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project2.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #3</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project3.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #4</p>
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project4.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #5</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project5.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <p>Project #6</p>
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/project6.jpg" alt="" />
+                    </a>
+                </div>
             </div>
+        </div>
+    </section>
 
-        </section>
-        <section class="fragment fragment-two">
-            <h2> Seeking New <br>Opportunities </h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3">
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+     
+        <div class="container">
+            <h2 class="text-center text-capitalize text-white">About Me</h2>
+            <hr class="star-light mb-5" />
 
-                        <!-- Edit this text with a brief intoduction / brand statement etc. -->
-                        <h5>An innovative, results-focused Supply Chain Analyst knowledgeable in Supply Chain, Demand Planning, Inventory and Replenishment, Business Process Optimization, Sales and Operations Planning, Project Management and Change Management. Transformation agent with focus on projects that drive operational efficiency within the supply chain organizations and across cross-functional stakeholders. Experience with Telecommunications, Semiconductor, CPG, Industrial Distribution and Automotive Lubricants industries.</h5>
+            <p class="about-me text-center">
+                I am Danielle, a freelance data analyst and process improvement enthusiast. 
+                I am passionate about working with organisations that want to make effective
+                use of their data; from the first ideas around what you want to measure and
+                how to capture data accurately, through data preparation, analysis and management,
+                all the way to impactful presentation of insights. I can support each step of the
+                process to enable your organisation in making evidence-driven decisions or share
+                insights with new audiences.
+
+                I am available for short-term projects and longer-term contracts. Let me help guide
+                you in discovering the power of visualizations to drive insights for informed business
+                decisions.
+            </p>
+        </div>
+        <div class="container">
+            <div class="col-md-10 offset-md-1">
+                <div class="row text-center skills-row">
+
+                    <!-- Replace these icons and text with skills you want to show case -->
+                    <!-- You should ideally not include any more than 5-6 tech skills -->
+                    <div class="col">
+                        <!-- <i class="iconify" data-icon="logos:tableau"></i> -->
+                        <a href="https://public.tableau.com/app/profile/danielle.spring6199#!/" target="_blank" class="ml-6 text-gray-400 hover:text-gray-500">
+                            <span class="sr-only">Tableau</span> 
+                            <img src="Tableau.jpg" class="w-6 h-6 opacity-50 hover:">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js-square fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-node fa-3x"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-git fa-3x"></i>
                     </div>
                 </div>
             </div>
-
-
-            <div class="learn">
-                <!-- You could hyperlink this down with a smooth scroll -->
-                <p> see why you should hire me </p>
-                <i class="fas fa-chevron-down"></i>
+            <div class="text-center mt-4">
+                <a class="btn btn-lg btn-outline-light" href="https://docs.google.com/document/d/1Av4sgIMC-QCttAQwUH4rba1dW2rPc0nc/edit?usp=sharing&ouid=104333799721409125308&rtpof=true&sd=true">
+                    <i class="fas fa-download mr-2"></i>
+                    Resume
+                </a>
             </div>
+        </div>
+    </section>
 
-        </section>
-        <section class="fragment fragment-three">
-            <h3>Things I've Made</h3>
-            <hr class="title-underline">
-            <div class="container carousel-container">
-
-                <!-- begin carousel -->
-                <!-- you should replace the placeholder images with actual images from your projects -->
-                <!-- images should be 800*600 or a matching ratio for best results -->
-                <div id="portfolioCarousel" class="carousel slide pointer-event" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#portfolioCarousel" data-slide-to="0" class="custom-indicator">
-                        </li>
-                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
-                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator active"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-
-                            <!--image here -->
-                            <img src="./Danielle Spring _ Portfolio_files/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <!--image here -->
-                            <img src="./Danielle Spring _ Portfolio_files/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button>
-                            </div>
-                        </div>
-                        <div class="carousel-item active">
-
-                            <!--image here -->
-                            <img src="./Danielle Spring _ Portfolio_files/placeholder.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <button class="btn btn-primary">View Code</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="text-center text-capitalize text-secondary mb-0">
+                Education
+            </h2>
+            <hr class="star-dark mb-5" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Seneca College of Applied Arts & Science |
+                    <span class="credential-date text-muted">1996-1998</span>
+                </h2>
+                <p class="lead">International Transportation & Customs Adminstration Diploma</p>
+                <!-- <p class="credential-description">
+                    Web development is a high-growth career track, and
+                    Vanderbilt University Coding Boot Camp teaches you the
+                    specialized skills for full-stack web development.
+                    Through a fast-paced, immersive curriculum, you’ll learn
+                    in-demand front-end and back-end technologies.
+                </p> -->
             </div>
-
-        </section>
-        <section class="fragment fragment-four">
-
-            <h3>Technology I Use</h3>
-            <hr class="title-underline">
-            <div class="container">
-                <div class="labels">
-                    <div class="tech">Excel/VBA</div>
-                    <div class="tech">MS Access/SQL Server/ Mongo</div>
-                    <div class="tech">Visio</div>
-                    <div class="tech">SmartSheet</div>
-                    <div class="tech">Python</div>
-                <div class="tech">Power BI</div><div class="tech">ERP/Software Tools: Microsoft Dynamics, AS/400, Forecast Pro</div></div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Queen's University |
+                    <span class="credential-date text-muted">1992-1996</span>
+                </h2>
+                <p class="lead">B.A. German Studies</p>
             </div>
+            <hr class="credential-divider" />
+        </div>
+    </section>
 
-        </section>
-        <section class="fragment fragment-five">
-            <h3>My Education</h3>
-            <hr class="title-underline">
+    <!-- Certifications -->
+    <section class="certification" id="certification">
+        <div class="container">
+            <h2 class="text-center text-capitalize text-secondary mb-0">
+                Certifications
+            </h2>
+            <hr class="star-dark mb-5" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Big Data Analytics Boot Camp Certificate |
+                    <span class="credential-date text-muted"> 2021-2022</span>
+                </h2>
+                <p class="lead">University of Toronto</p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Certified Business Forecaster |
+                    <span class="credential-date text-muted">certified 2019</span>
+                </h2>
+                <p class="lead">Institute of Business Forecasting</p>
+            </div>
+            <hr class="credential-divider" />
+            <div class="credential">
+                <h2 class="location mb-0">
+                    Certified Production &amp; Inventory Management |
+                    <span class="credential-date text-muted">certified 2006</span>
+                </h2>
+                <p class="lead">APICS Association for Supply Chain Management</p>
+            </div>
+            <hr class="credential-divider" />
+        </div>
+    </section>
 
-            <!-- Don't forget to swap out the universities and education to match your own-->
-            <div class="container">
-                <h5>University of Toronto</h5>
-                <p class="credential">SCS Data Analytics Boot Camp | 2021-2022</p>
-                <h5>Institute of Business Forecasting</h5>
-                <p class="credential">Certified Business Forecaster | cert. 2019</p>
-
-            <h5>APICS</h5>
-<p class="credential">Certified Production &amp; Inventory Management | cert. 2006</p><h5>Seneca College of Applied Arts &amp; Science</h5>
-<p class="credential">International Transportation &amp; Customs Administration | 1996-1999</p><h5>Queen's University</h5>
-<p class="credential">Bachelor of Arts: German | 1992-1996</p></div>
-        </section>
-
-    </main>
-
+    <!-- Footer -->
     <footer>
+        <footer class="footer text-center" id="connect">
         <section class="fragment fragment-six">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <h2 class="text-center text-capitalize mb-3">
+                            Connect with Me
+                        </h2>
                     <div class="col">
                         <h6>Danielle Spring</h6>
 
-                        <!--update these links to match your own social media profiles -->
-                        <a href="https://twitter.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
                         <a href="https://linkedin.com/in/danielle-spring-15435713/" class="social-icon"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/DanielleSpring" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="mailto:%3Cdaniellemulvihill@hotmail.com%3E" class="social-icon"><i class="fas fa-envelope"></i></a>
-                        <p class="text-muted copyright">Danielle Spring © 2021 </p>
+                        <a href="mailto:%3Cdaniellespring73@gmail.com%3E" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <!-- <p class="text-muted copyright">Danielle Spring © 2021 </p> -->
                     </div>
                 </div>
             </div>
         </section>
     </footer>
 
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Danielle Spring 2022</small>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio Modals: These are what open up when you click on each project. Replace the information as needed. -->
+    <!-- Portfolio Modal 1 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name 1
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project1.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://public.tableau.com/app/profile/danielle.spring6199/viz/Sunshine_Dashboard_Workbook/TheThreshold">
+                            Live Demo</a>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="https://github.com/DanielleSpring/Final-Project-SunshineList">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project2.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project3.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project4.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-5">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project5.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-6">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+                <i class="fa fa-2x fa-times close-link"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">
+                            Project Name
+                        </h2>
+                        <hr class="star-dark mb-5" />
+                        <img class="img-fluid mb-5" src="img/portfolio/project6.jpg" alt="" />
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Mollitia neque assumenda ipsam
+                            nihil, molestias magnam, recusandae quos quis
+                            inventore quisquam velit asperiores, vitae?
+                            Reprehenderit soluta, eos quod consequuntur
+                            itaque. Nam.
+                        </p>
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            Live Demo
+                        </a>
+
+                        <a class="btn btn-primary portfolio-modal-dismiss" href="#">
+                            View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
-    <script src="./Danielle Spring _ Portfolio_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="./Danielle Spring _ Portfolio_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./Danielle Spring _ Portfolio_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+</body>
 
-
-</body></html>
+</html>
