@@ -277,22 +277,22 @@ a:active {
 }
 
 .fragment-six {
-    padding: 20px;
+    padding: 10px;
 }
 
 .fragment-six h6 {
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
     /* letter-spacing: 2px; */
 }
 .fragment-six .social-icon {
     color: #fff;
     font-size: 1.2rem;
     margin-right: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .fragment-six .copyright {
